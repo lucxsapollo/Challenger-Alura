@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Serif:ital,wght@0,400;1,700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Noto+Serif:ital,wght@0,400;1,700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+body{
+    background-color: #f3f5fc;
+}
+
+.logo-alura{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.deco{
+    position: absolute;
+    margin-left: 13%;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+}
+
+
+.areadetexto{
+    position: absolute;
+    top: 168px;
+    left: 240px;
+    width: 680px;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    font-size: 40px;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    
+}
+
+.areadetexto::placeholder{
+    color: #0A3871;
+}
+
+
+.divpai{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 900px;
+    left: 75%;
+    top: 40px;
+    border-radius: 32px;
+
+}
+
+.menino{
+    position: absolute;
+    top: 243px;
+    left: 32px;
+}
+
+.titulo2{
+    position: absolute;
+    top: 579px;
+    left: 32px;
+    right: 32px;
+    text-align: center;
+    font-size: 24px;
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+    font-style: 700, bold;
+}
+
+.paragrafo2{
+    position: absolute;
+    top: 653px;
+    left: 32px;
+    right: 32px;
+    text-align: center;
+    size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+
+}
+.excla{
+    position: absolute;
+    top: 852px;
+    left: 270px;
+}
+.escrita{
+    position: absolute;
+    top: 841px;
+    left: 294px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+}
+
+
+.botao1{     
+    position: absolute;   
+    height: 67px;
+    width: 328px;
+    left: 240px;
+    top: 885px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #0A3871;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    
+
+
+
+}
+
+.botao1 input[type="submit"]{
+    font-family: 'Inter', sans-serif;
+    width: 280px;   
+    top: 24px;
+    left: 24px;
+    bottom: 24px;
+    right: 24px;
+    background-color: #0A3871;
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+
+}
+
+.botao2{
+    position: absolute;   
+    height: 67px;
+    width: 328px;
+    left: 592px;
+    top: 885px;
+    border-radius: 24px;
+    padding: 24px;
+    background: #D8DFE8;
+    border-color: #0A3871;
+    border: 1px solid #0A3871
+    
+}
+
+.botao2 input[type="submit"]{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 280px;   
+    top: 24px;
+    left: 24px;
+    bottom: 24px;
+    right: 24px;
+    color: #0A3871;
+    background-color:#D8DFE8;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+
+}
+
+.rodape{
+    position: absolute;
+    margin-top: 53%;
+    
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 250px;
+    color: #0A3871;
+    text-decoration: none;
+}
+
+.lucas{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 150px;
+    color: #0A3871;
+}
+
+.linkedin{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 150px;
+    color: #0A3871;
+    text-decoration: none;
+}
